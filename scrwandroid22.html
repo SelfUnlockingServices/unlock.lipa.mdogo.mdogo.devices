@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Android Logo</title>
+    </head>
+    
+    <body style="text-align:center;"> 
+     
+    <audio id="song" controls loop>
+        <source src="Rush.mp3" type="audio/mp3"></source>
+    </audio>
+    <select id="color">
+      <option>Default</option>
+      <option>Lime</option>  
+    </select>
+      <div id="leftAntenna"></div>
+      <div id="rightAntenna"></div>
+      <div id="head" onclick="a()"></div>
+      <div id="leftEye"></div>
+      <div id="rightEye"></div>
+      <div id="body" onclick="a()"></div>
+      <div id="leftHand" onclick="a()"></div>
+      <div id="rightHand" onclick="a()"></div>
+      <div id="leftLeg" onclick="a()"></div>
+      <div id="rightLeg" onclick="a()"></div>
+          </body>
+
+
+<style>
+#song {
+    display: none;
+}
+
+#leftAntenna {
+    position: absolute ;
+    height: 50px;
+    width: 7px;
+    background-color: #31DE84;
+    margin-left: 140px;
+    border-radius: 10px;
+    transform: rotate(-25deg);
+}
+
+#rightAntenna {
+    position: absolute ;
+    height: 50px;
+    width: 7px;
+    background-color: #31DE84;
+    margin-left: 250px;
+    border-radius: 10px;
+    transform: rotate(25deg);
+}
+
+#head {
+    position: absolute ;
+    height: 100px;
+    width: 200px;
+    background-color: #31DE84;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 100px 100px 0 0;
+}
+
+#leftEye {
+    position: absolute ;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 75px;
+    border-radius: 50%;
+}
+
+#rightEye {
+    position: absolute ;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    margin-left: 235px;
+    margin-top: 75px;
+    border-radius: 50%;
+}
+
+#body {
+    position: absolute ;
+    height: 180px;
+    width: 200px;
+    background-color: #31DE84;
+    margin-left: 100px;
+    margin-top: 137px;
+    border-radius: 0 0 30px 30px;
+}
+
+#leftHand {
+    position: absolute ;
+    height: 150px;
+    width: 40px;
+    background-color: #31DE84;
+    margin-left: 53px;
+    margin-top: 133px;
+    border-radius: 30px;
+}
+
+#rightHand {
+    position: absolute ;
+    height: 150px;
+    width: 40px;
+    background-color: #31DE84;
+    margin-left: 306px;
+    margin-top: 133px;
+    border-radius: 30px;
+}
+
+#leftLeg {
+    position: absolute ;
+    height: 100px;
+    width: 40px;
+    background-color: #31DE84;
+    margin-left: 140px;
+    margin-top: 300px;
+    border-radius: 0 0 30px 30px;
+}
+
+#rightLeg {
+    position: absolute ;
+    height: 100px;
+    width: 40px;
+    background-color: #31DE84;
+    margin-left: 220px;
+    margin-top: 300px;
+    border-radius: 0 0 30px 30px;
+}
+
+#color {
+    color: white;
+    font-size: 25px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #31DE84;
+    border-radius: 10px;
+    border: solid gray 1px;
+}
+#K{
+
+position:absolute;
+
+ top:150px;
+right: 40%;
+ left:40%;
+height:400px;
+ width:400px; 
+border-radius:50%;
+border:3px solid #00FF00;
+border-top:3px dotted #00FF00;
+border-bottom:3px dotted #00FF00;
+animation:zoya 0.7s linear infinite ;
+align-content: center;
+}
+@keyframes zoya{
+  0% {
+   transform:rotate(0deg);
+
+    }
+  100% { 
+  transform:rotate(360deg);
+  align-content: center;
+}
+   
+   </style>
+
+</html>
